@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Sebastian Andres Blanco Sanchez" />
+    <title>Quiz</title>
+    <script src="js/ejercicio.js"></script>
+    <script src="js/cargarlibros.js"></script>
+    <script src="js/mostrarlibros.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<h1>Lectores Por ti</h1>
+    <label for="bookCriteria">Seleccione el criterio de búsqueda</label>
+    <select id="bookCriteria">
+    <option value="">Selecciona un título</option>
+    </select>
+    <button onclick="mostrarDatos()">Mostrar Datos</button>
+
+    <table border="1" id="bookTable">
+    <thead>
+    <tr>
+        <th>Publisher</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Contributor</th>
+        <th>Contributor Note</th>
+        <th>Book Image</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    </table>
+</body>
+</html>
